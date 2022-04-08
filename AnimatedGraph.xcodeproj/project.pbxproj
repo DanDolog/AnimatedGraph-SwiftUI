@@ -11,6 +11,12 @@
 		F357D53F28006FDF00151806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D53E28006FDF00151806 /* ContentView.swift */; };
 		F357D54128006FDF00151806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357D54028006FDF00151806 /* Assets.xcassets */; };
 		F357D54428006FDF00151806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357D54328006FDF00151806 /* Preview Assets.xcassets */; };
+		F357D5512800701C00151806 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D54B2800701C00151806 /* PointView.swift */; };
+		F357D5522800701C00151806 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D54C2800701C00151806 /* PopoverView.swift */; };
+		F357D5532800701C00151806 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D54D2800701C00151806 /* LineGraphView.swift */; };
+		F357D5542800701C00151806 /* AnimatedGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D54E2800701C00151806 /* AnimatedGraphView.swift */; };
+		F357D5552800701C00151806 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D54F2800701C00151806 /* StarsView.swift */; };
+		F357D5562800701C00151806 /* GraphBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357D5502800701C00151806 /* GraphBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		F357D53E28006FDF00151806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F357D54028006FDF00151806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F357D54328006FDF00151806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F357D54B2800701C00151806 /* PointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
+		F357D54C2800701C00151806 /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		F357D54D2800701C00151806 /* LineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
+		F357D54E2800701C00151806 /* AnimatedGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedGraphView.swift; sourceTree = "<group>"; };
+		F357D54F2800701C00151806 /* StarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		F357D5502800701C00151806 /* GraphBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			children = (
 				F357D53C28006FDF00151806 /* AnimatedGraphApp.swift */,
 				F357D53E28006FDF00151806 /* ContentView.swift */,
+				F357D54A2800701C00151806 /* Graph */,
 				F357D54028006FDF00151806 /* Assets.xcassets */,
 				F357D54228006FDF00151806 /* Preview Content */,
 			);
@@ -65,6 +78,19 @@
 				F357D54328006FDF00151806 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F357D54A2800701C00151806 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F357D54E2800701C00151806 /* AnimatedGraphView.swift */,
+				F357D54D2800701C00151806 /* LineGraphView.swift */,
+				F357D5502800701C00151806 /* GraphBackgroundView.swift */,
+				F357D54B2800701C00151806 /* PointView.swift */,
+				F357D54C2800701C00151806 /* PopoverView.swift */,
+				F357D54F2800701C00151806 /* StarsView.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F357D5512800701C00151806 /* PointView.swift in Sources */,
+				F357D5562800701C00151806 /* GraphBackgroundView.swift in Sources */,
+				F357D5532800701C00151806 /* LineGraphView.swift in Sources */,
 				F357D53F28006FDF00151806 /* ContentView.swift in Sources */,
+				F357D5522800701C00151806 /* PopoverView.swift in Sources */,
+				F357D5542800701C00151806 /* AnimatedGraphView.swift in Sources */,
 				F357D53D28006FDF00151806 /* AnimatedGraphApp.swift in Sources */,
+				F357D5552800701C00151806 /* StarsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
