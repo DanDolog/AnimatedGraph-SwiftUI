@@ -18,7 +18,7 @@ struct GraphBackgroundView: View {
 
             HStack {
                 ForEach((1...5), id: \.self) { i in
-                    Text("\(i) week")
+                    Text("Week \(i)")
                         .font(.system(size: 15, weight: .regular))
                     if i != 5 {
                         Spacer()
